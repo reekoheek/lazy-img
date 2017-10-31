@@ -1,11 +1,11 @@
 {
   "name": "xin-lazy-img",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Lazy image xin component",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reekoheek/lazy-img.git"
+    "url": "https://github.com/reekoheek/xin-lazy-img.git"
   },
   "author": "Ganesha <reekoheek@gmail.com>",
   "license": "MIT",
@@ -13,9 +13,9 @@
     "example": "webpack-dev-server"
   },
   "bugs": {
-    "url": "https://github.com/reekoheek/lazy-img/issues"
+    "url": "https://github.com/reekoheek/xin-lazy-img/issues"
   },
-  "homepage": "https://github.com/reekoheek/lazy-img#readme",
+  "homepage": "https://github.com/reekoheek/xin-lazy-img#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
