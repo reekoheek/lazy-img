@@ -1,25 +1,40 @@
 {
-  "name": "lazy-img",
-  "version": "1.0.0",
-  "description": "",
-  "main": "lazy-img.js",
+  "name": "xin-lazy-img",
+  "version": "1.1.1",
+  "description": "Lazy image xin component",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reekoheek/lazy-img.git"
+    "url": "https://github.com/reekoheek/lazy-img.git"
   },
   "author": "Ganesha <reekoheek@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "example": "webpack-dev-server"
+  },
   "bugs": {
     "url": "https://github.com/reekoheek/lazy-img/issues"
   },
   "homepage": "https://github.com/reekoheek/lazy-img#readme",
   "devDependencies": {
-    "eslint": "^3.9.1",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-plugin-promise": "^3.3.0",
-    "eslint-plugin-standard": "^2.0.1"
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.10.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-xinix": "^1.0.4",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
   },
   "dependencies": {
-    "xin": "xinix-technology/xin#2.3.1"
+    "@xinix/xin": "^2.4.5"
   }
 }
